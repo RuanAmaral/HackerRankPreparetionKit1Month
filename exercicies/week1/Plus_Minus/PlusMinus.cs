@@ -46,10 +46,11 @@ class PlusMinusResult
         Console.WriteLine("{0:0.000000}", ((float)zeros / (float)arr.Count));
 
         // code by disscussion hackerRank (better)
-        Console.WriteLine($"{(positive / arr.Count):F6}");
-        Console.WriteLine($"{(negative / arr.Count):F6}");
-        Console.WriteLine($"{(zeros / arr.Count):F6}");
-
+        /*
+         Console.WriteLine($"{(positive / arr.Count):F6}");
+         Console.WriteLine($"{(negative / arr.Count):F6}");
+         Console.WriteLine($"{(zeros / arr.Count):F6}");
+        s*/
     }
 
 }
