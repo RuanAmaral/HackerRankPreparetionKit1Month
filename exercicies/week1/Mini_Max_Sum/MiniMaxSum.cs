@@ -23,47 +23,47 @@ class MiniMaxSum
 
     public static void miniMaxSum(List<int> arr)
     {
-        //Discussion and Better Solution
+        //Discussion with my modifications, because before have to trhow overflow exception and Better Solution
         arr.Sort();
 
         // Sum of the smallest 4 elements
-        long minSum = arr.Take(4).Sum();
+        long minSum = arr.Take(4).Select(x=> (long)x).Sum();
 
         // Sum of the largest 4 elements
-        long maxSum = arr.Skip(arr.Count - 4).Sum();
+        long maxSum = arr.Skip(1).Select(x=> (long)x).Sum();
 
         // Print the result
         Console.WriteLine($"{minSum} {maxSum}");
 
 
         //My Solution
-        long min = 0, max = 0, equalmin = 0, equalmax = 0;
-        int bigger = arr.Max();
-        int minor = arr.Min();
+        // long min = 0, max = 0, equalmin = 0, equalmax = 0;
+        // int bigger = arr.Max();
+        // int minor = arr.Min();
 
 
-        foreach (int i in arr)
-        {
+        // foreach (int i in arr)
+        // {
 
-            if (i > minor || equalmax > 0)
-            {
-                max += i;
-            }
-            if (i < bigger || equalmin > 0)
-            {
-                min += i;
-            }
-            if (minor == i)
-            {
-                equalmax++;
-            }
-            if (bigger == i)
-            {
-                equalmin++;
-            }
-        }
+        //     if (i > minor || equalmax > 0)
+        //     {
+        //         max += i;
+        //     }
+        //     if (i < bigger || equalmin > 0)
+        //     {
+        //         min += i;
+        //     }
+        //     if (minor == i)
+        //     {
+        //         equalmax++;
+        //     }
+        //     if (bigger == i)
+        //     {
+        //         equalmin++;
+        //     }
+        // }
 
-        Console.WriteLine(min + " " + max);
+        // Console.WriteLine(min + " " + max);
 
     }
 

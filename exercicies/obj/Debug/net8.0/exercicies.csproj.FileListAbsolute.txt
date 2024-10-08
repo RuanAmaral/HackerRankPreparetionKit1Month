@@ -1,0 +1,15 @@
+/home/ruan/Desenvolvimento/HackerRankPreparetionKit1Month/exercicies/bin/Debug/net8.0/exercicies
+/home/ruan/Desenvolvimento/HackerRankPreparetionKit1Month/exercicies/bin/Debug/net8.0/exercicies.deps.json
+/home/ruan/Desenvolvimento/HackerRankPreparetionKit1Month/exercicies/bin/Debug/net8.0/exercicies.runtimeconfig.json
+/home/ruan/Desenvolvimento/HackerRankPreparetionKit1Month/exercicies/bin/Debug/net8.0/exercicies.dll
+/home/ruan/Desenvolvimento/HackerRankPreparetionKit1Month/exercicies/bin/Debug/net8.0/exercicies.pdb
+/home/ruan/Desenvolvimento/HackerRankPreparetionKit1Month/exercicies/obj/Debug/net8.0/exercicies.GeneratedMSBuildEditorConfig.editorconfig
+/home/ruan/Desenvolvimento/HackerRankPreparetionKit1Month/exercicies/obj/Debug/net8.0/exercicies.AssemblyInfoInputs.cache
+/home/ruan/Desenvolvimento/HackerRankPreparetionKit1Month/exercicies/obj/Debug/net8.0/exercicies.AssemblyInfo.cs
+/home/ruan/Desenvolvimento/HackerRankPreparetionKit1Month/exercicies/obj/Debug/net8.0/exercicies.csproj.CoreCompileInputs.cache
+/home/ruan/Desenvolvimento/HackerRankPreparetionKit1Month/exercicies/obj/Debug/net8.0/exercicies.sourcelink.json
+/home/ruan/Desenvolvimento/HackerRankPreparetionKit1Month/exercicies/obj/Debug/net8.0/exercicies.dll
+/home/ruan/Desenvolvimento/HackerRankPreparetionKit1Month/exercicies/obj/Debug/net8.0/refint/exercicies.dll
+/home/ruan/Desenvolvimento/HackerRankPreparetionKit1Month/exercicies/obj/Debug/net8.0/exercicies.pdb
+/home/ruan/Desenvolvimento/HackerRankPreparetionKit1Month/exercicies/obj/Debug/net8.0/exercicies.genruntimeconfig.cache
+/home/ruan/Desenvolvimento/HackerRankPreparetionKit1Month/exercicies/obj/Debug/net8.0/ref/exercicies.dll

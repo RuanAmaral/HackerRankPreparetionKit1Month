@@ -6,7 +6,7 @@ namespace exercicies
     {
         static void Main(string[] args)
         {
-            PlusMinusSolution.PlusMinusMain();
+            MiniMaxSumSolution.MiniMaxSumMain();
         }
     }
 }
