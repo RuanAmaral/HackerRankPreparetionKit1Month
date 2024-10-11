@@ -22,9 +22,9 @@ class lonelyintegerResult
      * The function accepts INTEGER_ARRAY a as parameter.
      */
 
-     
-      
-      //My time 07:42 minutes to resolve
+
+
+    //My time 07:42 minutes to resolve
 
     public static int lonelyinteger(List<int> a)
     {
@@ -32,13 +32,28 @@ class lonelyintegerResult
         //MyCode
 
         int integer = 0;
-        foreach(int i in a){
-            if((a.Where(a=>a == i).Count()) ==1 ){
+        foreach (int i in a)
+        {
+            if ((a.Where(a => a == i).Count()) == 1)
+            {
                 integer = i;
             }
         }
-        
+
         return integer;
+
+        // With XOR Operator
+        //The XOR of a number with itself is 0, and the XOR of any number with 0 is the number itself. //This allows you to find the unique element in linear time with constant space.
+        //By XORing all elements, pairs of identical elements cancel out, leaving only the unique element. //This solution is efficient as it operates in O(n) time complexity and O(1)
+
+        //  int result = 0;
+        // 	foreach (var num in a)
+        // 	{
+        // 			result ^= num; // XOR operation
+        // 	}
+        // 	return result;
+        // }
+
 
     }
 
