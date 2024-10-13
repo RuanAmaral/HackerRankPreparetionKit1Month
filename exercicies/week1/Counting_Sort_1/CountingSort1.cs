@@ -24,11 +24,17 @@ class CountingSort1Result
 
     public static List<int> countingSort(List<int> arr)
     {
+
+        // options to add 0 in frequency array
+        // List freqList = Enumerable.Repeat(0,100).ToList();
+        // List<int> result = new List<int>(new int[100]);
         List<int> frequency = [];
         
         for(int i =0; i<100; i++){
             frequency.Add(0);
         }
+
+
         foreach(int i in arr){
             frequency[i]++;
         }
