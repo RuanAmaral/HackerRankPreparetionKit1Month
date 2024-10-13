@@ -32,7 +32,7 @@ class FlippingBitsResult
 
 class FlippingBitsSolution
 {
-    public static void Main(string[] args)
+    public static void FlippingBitsMain()
     {
         TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
 

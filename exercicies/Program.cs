@@ -4,9 +4,9 @@ namespace exercicies
 {
     internal class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            MiniMaxSumSolution.MiniMaxSumMain();
+            CountingSort1Solution.CountingSort1Main();
         }
     }
 }

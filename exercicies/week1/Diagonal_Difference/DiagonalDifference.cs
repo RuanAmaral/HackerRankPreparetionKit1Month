@@ -38,7 +38,7 @@ class DiagonalDifferenceResult
 
 class DiagonalDifferenceSolution
 {
-    public static void DiagonalDifferenceMain(string[] args)
+    public static void DiagonalDifferenceMain()
     {
         TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
 

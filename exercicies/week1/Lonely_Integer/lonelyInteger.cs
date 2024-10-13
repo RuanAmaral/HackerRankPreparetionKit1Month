@@ -61,7 +61,7 @@ class lonelyintegerResult
 
 class lonelyintegerSolution
 {
-    public static void Main(string[] args)
+    public static void lonelyintegerMain()
     {
         TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
 

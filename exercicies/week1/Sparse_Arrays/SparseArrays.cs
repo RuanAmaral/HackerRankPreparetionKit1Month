@@ -14,7 +14,7 @@ using System;
 
 // my time to resolve 22:25 minutes
 
-class Result
+class SparseArraysResult
 {
 
     /*
@@ -26,7 +26,7 @@ class Result
      *  2. STRING_ARRAY queries
      */
 
-    public static List<int> matchingStrings(List<string> strings, List<string> queries)
+    public static List<int> SparseArraysmatchingStrings(List<string> strings, List<string> queries)
     {
         // My answer 
         List<int> ints = [];
@@ -39,9 +39,9 @@ class Result
 
 }
 
-class Solution
+class SparseArraysSolution
 {
-    public static void Main(string[] args)
+    public static void SparseArraysMain()
     {
         TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
 
@@ -65,7 +65,7 @@ class Solution
             queries.Add(queriesItem);
         }
 
-        List<int> res = Result.matchingStrings(strings, queries);
+        List<int> res = SparseArraysResult.SparseArraysmatchingStrings(strings, queries);
 
         textWriter.WriteLine(String.Join("\n", res));
 
