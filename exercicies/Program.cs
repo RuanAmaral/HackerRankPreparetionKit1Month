@@ -6,7 +6,7 @@ namespace exercicies
     {
         public static void Main(string[] args)
         {
-            CountingSort1Solution.CountingSort1Main();
+           
         }
     }
 }
